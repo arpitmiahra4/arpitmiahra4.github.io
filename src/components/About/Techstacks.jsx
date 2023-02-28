@@ -11,12 +11,11 @@ import {
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
 
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      <div style={{marginTop:"20px"}} className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
@@ -62,10 +61,6 @@ export const Techstacks = () => {
           <div>
             <SiChakraui />
             <h5>Chakra Ui</h5>
-          </div>
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
           </div>
         </div>
       </div>

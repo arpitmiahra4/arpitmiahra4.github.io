@@ -11,6 +11,7 @@ import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import Tools from "./Tools";
 export const About = () => {
   return (
     <>
@@ -95,6 +96,9 @@ export const About = () => {
       <Timeline />
       <section id="#skills">
         <Techstacks />
+      </section>
+      <section id="#tools">
+        <Tools />
       </section>
     </>
   );

@@ -45,7 +45,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://ripe-receipt-7221.vercel.app/"
+                  href="https://mishraplus.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

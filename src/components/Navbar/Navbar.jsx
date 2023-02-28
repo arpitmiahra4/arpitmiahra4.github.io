@@ -53,6 +53,15 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+              href="#tools"
+              onClick={() => toggleNavList("#tools")}
+              className="link link--nav"
+            >
+              Tools
+            </a>
+          </li>
+          <li className="nav__list-item">
+            <a
               href="#projects"
               onClick={() => toggleNavList("#projects")}
               className="link link--nav"
