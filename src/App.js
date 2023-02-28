@@ -5,12 +5,13 @@ import { ThemeContext } from "./Context/theme";
 import { About } from "./components/About/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import Form from "./components/Contact/Form";
 import { Github } from "./components/About/Github";
 import { Projects } from "./components/Projects/Project";
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
 import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+import { ChakraProvider } from "@chakra-ui/react";
 // import { Navbar } from "./components/Navbar/Navbar";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -41,10 +42,14 @@ export default function App() {
         </section>
         <section id="#contact">
           <Contact />
+          {/* <ChakraProvider> */}
+          <Form />
+          {/* </ChakraProvider> */}
         </section>
+        
       </main>
       <Footer />
-      <ScrollToTop />
+        <ScrollToTop /> 
     </div>
   );
 }

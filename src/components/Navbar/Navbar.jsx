@@ -5,7 +5,7 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-
+import resume from "../assets/fw19_0501_Arpit_Mishra_Resume.pdf"
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
@@ -71,11 +71,13 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/u/0/uc?id=1yLLn6TtyaI0BEV-G77DjyDrT_CFVUzog&export=download"
-              onClick={toggleNavList}
+              href={resume}
+              onClick={()=>{window.open("https://drive.google.com/file/d/1yLLn6TtyaI0BEV-G77DjyDrT_CFVUzog/view?usp=sharing" , "blank")}}
               className="link link--nav"
               target="_blank"
               rel="noreferrer"
+            
+              download={"fw19_0501_Arpit_Mishra_Resume"}
             >
               Resume
             </a>

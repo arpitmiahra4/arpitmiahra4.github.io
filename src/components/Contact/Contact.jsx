@@ -6,6 +6,7 @@ import { BsTwitter } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { ThemeContext } from "../../Context/theme";
 
+
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
   return (

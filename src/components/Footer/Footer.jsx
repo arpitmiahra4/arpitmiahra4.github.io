@@ -8,7 +8,7 @@ export const Footer = () => {
     <>
       <div className={` ${themename} section `}>
         <a
-          href="https://github.com/gautamverma095"
+          href="https://github.com/arpitmiahra4"
           rel="noreferrer"
           target="_blank"
         >
