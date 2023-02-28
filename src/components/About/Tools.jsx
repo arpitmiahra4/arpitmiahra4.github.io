@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tools.css";
-import { SiVisualstudiocode, SiPostman , SiCodesandbox } from "react-icons/si";
+import { SiVisualstudiocode, SiPostman , SiCodesandbox , SiNetlify ,SiVercel } from "react-icons/si";
 import { VscGithub  } from "react-icons/vsc";
 const Tools = () => {
   return (
@@ -23,6 +23,14 @@ const Tools = () => {
           <div>
             <SiCodesandbox />
             <h5>Code Sandbox</h5>
+          </div>
+          <div>
+            <SiNetlify />
+            <h5>Netlify</h5>
+          </div>
+          <div>
+            <SiVercel />
+            <h5>Vercel</h5>
           </div>
         </div>
       </div>
