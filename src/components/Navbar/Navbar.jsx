@@ -5,7 +5,7 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import resume from "../assets/fw19_0501_Arpit_Mishra_Resume.pdf"
+import resume from "../assets/arpit-mishra-resume.pdf"
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
@@ -86,7 +86,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             
-              download={"fw19_0501_Arpit_Mishra_Resume"}
+              download={"Arpit_Mishra_Resume"}
             >
               Resume
             </a>

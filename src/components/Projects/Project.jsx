@@ -8,9 +8,20 @@ import {
   SiExpress,
   SiRedux,
   SiJavascript,
+  SiTypescript,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
+import Flipkart from "../assets/Flipkart.gif"
+import cricket from "../assets/cricketClone.gif"
+import umbberella from "../assets/CustomizeUmbrella.gif"
+import employee from "../assets/EmployeeManagement.gif"
+import apple from "../assets/apple.gif"
+import nykaa from "../assets/nykaaClone.gif"
+import plural from "../assets/pluralSight.gif"
+import puma from "../assets/pumaClone.gif"
+import word from "../assets/wordGame.gif"
+import razer from "../assets/RazerClone.gif"
 export const Projects = () => {
   return (
     <>
@@ -23,7 +34,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/BBvZSC6/Screenshot-20230226-143243.png"
+                  src={Flipkart}
                   alt="Flipcart clone"
                 />
               </div>
@@ -72,7 +83,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/BLJwtP7/Screenshot-20230226-144225.png"
+                  src={razer}
                   alt="Razer clone"
                 />
               </div>
@@ -121,7 +132,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/k2JWhwG/Screenshot-20230226-150339.png"
+                  src={puma}
                   alt="Razer clone"
                 />
               </div>
@@ -165,13 +176,147 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/*  */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={umbberella}
+                  alt="FlipkartPlus"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Customize Umbrella</h2>
+              <p>A brands want the seller to print their logo on the umbrella. The seller wants you to create a tool that'll help their customers create an instant preview of the customized umbrella on the website by adding the logo.</p>
+              <div>
+                <SiHtml5 />
+                <DiCss3/>
+                <SiJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://arpitstarapps.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/arpitmiahra4/studio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         {/*  */}
+         <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={word}
+                  alt="FlipkartPlus"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Word Game</h2>
+              <p>It's Group Hackathon Challenge Done in 48 Hours where we've used MERN stack to make this Word Game along with frontend and backend integration</p>
+              <div>
+                <FaReact />
+                <SiExpress />
+                <DiMongodb />
+                <SiMaterialui />
+                <SiChakraui />
+                <SiRedux />
+                <FaNodeJs />
+                <SiTypescript />
+              </div>
+              <div>
+                <a
+                  href="https://arpit-wordgame.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/arpitmiahra4/wide-power-8646"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         {/*  */}
+         <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={employee}
+                  alt="FlipkartPlus"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Employee Management System</h2>
+              <p>Employee Management System by all CRUD operation on Json-Server. We can track every Employee details by this Tool As easy as we can.</p>
+              <div>
+                <FaReact />
+                <SiChakraui />
+                <SiJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://employee-management-system-alpha.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/arpitmiahra4/employee-management-system"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Two */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://camo.githubusercontent.com/4e2c1cb144f5396ca9b8adbe3efff73a7a9f301410f3bfc37cefced854fa47a9/68747470733a2f2f692e6962622e636f2f6b67463233315a2f53637265656e73686f742d32303233303132322d3136343232392e706e67"
+                  src={apple}
                   alt="Apple clone"
                 />
               </div>
@@ -219,7 +364,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/8nwnXLq/Screenshot-20221122-132653.png"
+                  src={cricket}
                   alt=""
                 />
               </div>
@@ -267,7 +412,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/cxBP6qS/Screenshot-20221212-203208.png"
+                  src={plural}
                   alt="FlipkartPlus"
                 />
               </div>
@@ -299,6 +444,54 @@ export const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/arpitmiahra4/plural-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/*  */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={nykaa}
+                  alt="FlipkartPlus"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Nykaa.com</h2>
+              <p>It's Group project where we've used MERN stack to make the Nykaa.com along with frontend and backend integration, fully responsive, smooth UI and Admin Side"</p>
+              <div>
+                <FaReact />
+                <SiExpress />
+                <DiMongodb />
+                <SiMaterialui />
+                <SiChakraui />
+                <SiRedux />
+                <FaNodeJs />
+                <SiJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://63bfed597aacf001e8b9caf6--ornate-cupcake-fb26b5.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/arpitmiahra4/Nykaa-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
