@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.780db555.css",
-    "main.js": "/static/js/main.98499a33.js",
+    "main.js": "/static/js/main.69598319.js",
     "static/media/EmployeeManagement.gif": "/static/media/EmployeeManagement.21c41471352dda112030.gif",
     "static/media/RazerClone.gif": "/static/media/RazerClone.1e72de4964bccb64e229.gif",
     "static/media/Flipkart.gif": "/static/media/Flipkart.00c11ebf67265542e74c.gif",
@@ -15,10 +15,10 @@
     "static/media/arpit-mishra-resume.pdf": "/static/media/arpit-mishra-resume.682d16eed9c0a4d21993.pdf",
     "index.html": "/index.html",
     "main.780db555.css.map": "/static/css/main.780db555.css.map",
-    "main.98499a33.js.map": "/static/js/main.98499a33.js.map"
+    "main.69598319.js.map": "/static/js/main.69598319.js.map"
   },
   "entrypoints": [
     "static/css/main.780db555.css",
-    "static/js/main.98499a33.js"
+    "static/js/main.69598319.js"
   ]
 }
