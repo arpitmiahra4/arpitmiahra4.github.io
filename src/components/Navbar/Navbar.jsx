@@ -86,7 +86,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             
-              download={"Arpit_Mishra_Resume"}
+              download={"arpit-mishra-resume"}
             >
               Resume
             </a>
